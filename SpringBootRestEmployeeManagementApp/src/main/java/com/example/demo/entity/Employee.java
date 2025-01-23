@@ -14,6 +14,7 @@ import jakarta.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Table(name="employees_info")
 public class Employee {
 	@Id
 	private int empId;
